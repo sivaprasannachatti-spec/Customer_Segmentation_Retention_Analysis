@@ -62,7 +62,7 @@ class ModelTrainer:
                 1: "VIP User",
                 2: "Regular User"
             })
-            total_customers = df.groupby("CustomerID").nunique()
+            total_customers = df['CustomerID'].nunique()
             grouped_customers = df.groupby("CustomerID")['InvoiceNo'].nunique()
             one_time_customers = grouped_customers[grouped_customers == 1].shape[0]
             repeated_customers = grouped_customers[grouped_customers > 1].shape[0]

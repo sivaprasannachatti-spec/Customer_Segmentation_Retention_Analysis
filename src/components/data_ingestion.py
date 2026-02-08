@@ -30,12 +30,3 @@ class DataIngestion:
         except Exception as e:
             raise CustomException(e, sys)
 
-if __name__=="__main__":
-    ingestionObj = DataIngestion()
-    df = ingestionObj.dataIngestion()
-    transformationObj = DataTransformation()
-    rfm = transformationObj.dataTransformation(df)
-    modelObj = ModelTrainer()
-    print(modelObj.trainerConfig(rfm, df))
-
-

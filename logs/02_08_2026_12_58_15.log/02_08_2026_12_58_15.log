@@ -1,0 +1,15 @@
+[ 2026-02-08 12:58:16,989 ] 22 root - INFO - Loading the csv file
+[ 2026-02-08 12:58:17,501 ] 24 root - INFO - Dataset loaded successfully
+[ 2026-02-08 12:58:18,867 ] 27 root - INFO - Dataset stored successfully
+[ 2026-02-08 12:58:18,868 ] 40 root - INFO - Null values removed successfully
+[ 2026-02-08 12:58:19,109 ] 50 root - INFO - Duplicates dropped successfully
+[ 2026-02-08 12:58:19,131 ] 52 root - INFO - Price with 0 values removed successfully
+[ 2026-02-08 12:58:19,154 ] 54 root - INFO - Quantity with -ve values removed successfully
+[ 2026-02-08 12:58:19,523 ] 57 root - INFO - Invoice date handled successfully
+[ 2026-02-08 12:58:19,525 ] 59 root - INFO - TotalPrice column added successfully
+[ 2026-02-08 12:58:22,253 ] 45 root - INFO - RFM table created successfully
+[ 2026-02-08 12:58:22,292 ] 48 root - INFO - Dataset loaded successfully
+[ 2026-02-08 12:58:24,201 ] 52 root - INFO - WCSS calculated successfully
+[ 2026-02-08 12:58:27,611 ] 54 root - INFO - Silhouette Score calculated successfully
+[ 2026-02-08 12:58:27,612 ] 56 root - INFO - KMeans initialized successfully
+[ 2026-02-08 12:58:27,615 ] 59 root - INFO - Labels added into RFM dataframe
