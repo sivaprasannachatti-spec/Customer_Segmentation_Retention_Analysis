@@ -1,0 +1,10 @@
+[ 2026-02-08 11:37:19,891 ] 21 root - INFO - Loading the csv file
+[ 2026-02-08 11:37:20,303 ] 23 root - INFO - Dataset loaded successfully
+[ 2026-02-08 11:37:21,538 ] 26 root - INFO - Dataset stored successfully
+[ 2026-02-08 11:37:21,539 ] 40 root - INFO - Null values removed successfully
+[ 2026-02-08 11:37:21,747 ] 50 root - INFO - Duplicates dropped successfully
+[ 2026-02-08 11:37:21,769 ] 52 root - INFO - Price with 0 values removed successfully
+[ 2026-02-08 11:37:21,792 ] 54 root - INFO - Quantity with -ve values removed successfully
+[ 2026-02-08 11:37:22,101 ] 57 root - INFO - Invoice date handled successfully
+[ 2026-02-08 11:37:22,104 ] 59 root - INFO - TotalPrice column added successfully
+[ 2026-02-08 11:37:24,133 ] 40 root - INFO - RFM table created successfully

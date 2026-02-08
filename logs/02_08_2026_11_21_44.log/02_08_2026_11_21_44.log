@@ -1,0 +1,9 @@
+[ 2026-02-08 11:21:47,680 ] 21 root - INFO - Loading the csv file
+[ 2026-02-08 11:21:48,099 ] 23 root - INFO - Dataset loaded successfully
+[ 2026-02-08 11:21:49,226 ] 26 root - INFO - Dataset stored successfully
+[ 2026-02-08 11:21:49,226 ] 37 root - INFO - Null values removed successfully
+[ 2026-02-08 11:21:49,435 ] 47 root - INFO - Duplicates dropped successfully
+[ 2026-02-08 11:21:49,457 ] 49 root - INFO - Price with 0 values removed successfully
+[ 2026-02-08 11:21:49,479 ] 51 root - INFO - Quantity with -ve values removed successfully
+[ 2026-02-08 11:21:49,791 ] 54 root - INFO - Invoice date handled successfully
+[ 2026-02-08 11:21:49,793 ] 56 root - INFO - TotalPrice column added successfully
